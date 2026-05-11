@@ -286,6 +286,3 @@ const api = axios.create({
 
 ---
 
-## 📄 License
-
-This project is for educational purposes.
