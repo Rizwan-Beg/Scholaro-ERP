@@ -1,23 +1,24 @@
-# === Backend (Spring Boot / Maven) ===
-backend/target/
-backend/*.jar
-backend/.mvn/
-backend/mvnw
-backend/mvnw.cmd
+# Java / Spring Boot
+target/
+*.class
+*.jar
+*.war
 
-# === Frontend (React / Vite / Node) ===
-frontend/node_modules/
-frontend/dist/
-frontend/.env.local
+# Node / React
+node_modules/
+build/
+dist/
 
-# === IDE ===
+# IDE
 .idea/
-*.iml
 .vscode/
-*.swp
-*.swo
-.DS_Store
 
-# === Environment ===
+# Env
 .env
+
+# Logs
 *.log
+
+# OS
+.DS_Store
+Thumbs.db
